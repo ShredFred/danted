@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-# Provides:          sockd.info (Lozy)
+# Original Author:          sockd.info (Lozy)
 #
 
-VERSION="1.3.2"
+VERSION="1.4.2"
 INSTALL_FROM="compile"
-DEFAULT_PORT="2016"
+DEFAULT_PORT="10000"
 DEFAULT_USER=""
 DEFAULT_PAWD=""
 WHITE_LIST_NET=""
