@@ -4,10 +4,11 @@
 #   -- Owner:       https://www.inet.no/dante
 #   -- Provider:    https://sockd.info
 #   -- Author:      Lozy
+#   -- Edits: ShredFred
 #
 
-REQUEST_SERVER="https://raw.github.com/Lozy/danted/master"
-SCRIPT_SERVER="https://public.sockd.info"
+REQUEST_SERVER="https://raw.github.com/ShredFred/danted/master"
+SCRIPT_SERVER="https://raw.github.com/ShredFred/danted/master"
 SYSTEM_RECOGNIZE=""
 
 [ "$1" == "--no-github" ] && REQUEST_SERVER=${SCRIPT_SERVER}
