@@ -1,5 +1,6 @@
 # Sockd
-**Dante socks5 server (v1.3.2) auto-install and management script** 
+**Dante socks5 server (v1.4.2) auto-install and management script**
+**Original and forked from lozy**
 
 ## About
 To build a socks5 server, we have lots of open-source programs to reach that, [Dante](https://www.inet.no/dante/) is one of them.
@@ -16,7 +17,7 @@ Comparing with the apt-get or building from source manually, this script will be
 ## Install
 
 ```bash
-wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh 
+wget --no-check-certificate https://raw.github.com/ShredFred/danted/master/install.sh -O install.sh 
 bash install.sh
 
 # run with options: bash install.sh option1 option2
@@ -41,12 +42,12 @@ bash install.sh --uninstall
 | Long Option | Short Option | Value refer | description |
 | :--- | :--- | --- | --- |
 | --ip=                | | ip address list (a.a.a.a:b.b.b.b) *#change ';' to ':' * | Socks5 Server Ip address |
-|  --port=             | | Default: 2016| port for dante socks5 server |
+|  --port=             | | Default: 10000| port for dante socks5 server |
 | --user=              | | Pam-Auth Username | Socks5 Auth user |
 | --passwd=            | | Pam-Auth Password |Socks5 Auth passwd |
 | --whitelist=         | | whitelist ip range (a.a.a.a/32:b.b.b.b/32) |Socks5 Auth IP list |
 | --whitelist-url=     | | online white list file (url) | Socks Auth whitelist http online |
-| --from-package       | -p    | --    | Install package from Bin package |
+| --from-package       | -p    | --    | Install package from Bin package v1.3.2|
 | --update-whitelist   | -u    | --    |  update white list |
 | --force              | -f    | --    | force install sockd |
 | --help               | -h    | --    | print help info |
@@ -71,11 +72,11 @@ bash install.sh --uninstall
 
 | OS release | Platform | Provider | Result |
 | :--- | :--- | --- |  --- | 
-| Debian GNU/Linux 8 (jessie) | x86_64 | vultr | pass |
-| Debian GNU/Linux 7 (wheezy) | x86_64 | vultr | pass |
-| Debian GNU/Linux 7 (wheezy) | i686 | vultr | pass |
-| Ubuntu 16.10 (Yakkety Yak)  | x86_64 | vultr | pass |
-| Ubuntu 14.04.5 LTS | i686 | vultr | pass
-| CentOS Linux 7 (Core) | x86_64 | vultr | pass |
-| CentOS Linux 6 | x86_64 | vultr | pass |
-| CentOS Linux 6 | i686 | vultr | pass |
+| Debian GNU/Linux 8 (jessie) | x86_64 | vultr | untested |
+| Debian GNU/Linux 7 (wheezy) | x86_64 | vultr | untested |
+| Debian GNU/Linux 7 (wheezy) | i686 | vultr | untested |
+| Ubuntu 16.10 (Yakkety Yak)  | x86_64 | vultr | untested |
+| Ubuntu 14.04.5 LTS | i686 | vultr | untested |
+| CentOS Linux 7 (Core) | x86_64 | vultr | untested |
+| CentOS Linux 6 | x86_64 | vultr | untested |
+| CentOS Linux 6 | i686 | vultr | untested |
