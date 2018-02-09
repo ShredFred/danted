@@ -51,6 +51,7 @@ bash install.sh --uninstall
 | --update-whitelist   | -u    | --    |  update white list |
 | --force              | -f    | --    | force install sockd |
 | --help               | -h    | --    | print help info |
+|     --no-github | | not working - points to github |"skip download script from github.com"|
 
 ## Management
 
