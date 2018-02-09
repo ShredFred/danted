@@ -5,7 +5,7 @@
 ## About
 To build a socks5 server, we have lots of open-source programs to reach that, [Dante](https://www.inet.no/dante/) is one of them.
 I have been using Dante for years and starting to write this auto-install and management script two years ago.
-This is the second update to match the systemd and new OS release like Debian 8 , CentOS 7.
+This is the second update to match the systemd and new OS release like Ubuntu 16, Debian 8 , CentOS 7.
 
 Comparing with the apt-get or building from source manually, this script will benefit you bellow
 
