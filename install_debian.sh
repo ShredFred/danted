@@ -245,7 +245,6 @@ download_file "script/sockd" "${BIN_SCRIPT}" "execute"
 ########################################## DEBIAN 8 ####################################################################
 apt-get update
 apt-get -yt $(lsb_release -cs)-security dist-upgrade
-apt-get -d dist-upgrade 
 apt-get autoclean
 apt-get install unzip nano apache2-utils gcc g++ make libpam-dev libwrap0-dev -y
 
